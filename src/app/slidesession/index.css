@@ -1,0 +1,154 @@
+/* ...existing code... */
+
+/* SlideSession: parallax bokeh hero */
+.slide-session {
+    position: relative;
+    overflow: hidden;
+    min-height: 66vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 72px 24px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #2a3845, #747474, #c2c5c9);
+    animation: gn-slide 6s linear infinite;
+    background-size: 200% 100%;
+    color: #fff;
+    isolation: isolate;
+}
+
+.bokeh {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* each layer is a large blurred circle with different color & size */
+.bokeh__layer {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(36px) saturate(120%);
+    opacity: 0.18;
+    will-change: transform, opacity;
+    mix-blend-mode: screen;
+    transition: opacity 400ms ease;
+    transform: translate3d(0, 0, 0);
+}
+
+/* tuned sizes and positions for visual depth */
+.layer--1 {
+    width: 520px;
+    height: 520px;
+    left: -8%;
+    top: 10%;
+    background: radial-gradient(circle at 30% 30%, rgba(60, 190, 110, 0.95), rgba(60, 190, 110, 0.06) 45%, transparent 65%);
+    opacity: 0.22;
+}
+
+.layer--2 {
+    width: 420px;
+    height: 420px;
+    right: -4%;
+    top: 6%;
+    background: radial-gradient(circle at 70% 20%, rgba(40, 180, 200, 0.9), rgba(40, 180, 200, 0.05) 45%, transparent 70%);
+    opacity: 0.18;
+}
+
+.layer--3 {
+    width: 380px;
+    height: 380px;
+    left: 12%;
+    bottom: 6%;
+    background: radial-gradient(circle at 40% 60%, rgba(50, 140, 100, 0.9), rgba(50, 140, 100, 0.05) 50%, transparent 75%);
+    opacity: 0.14;
+}
+
+.layer--4 {
+    width: 260px;
+    height: 260px;
+    right: 18%;
+    bottom: 12%;
+    background: radial-gradient(circle at 60% 40%, rgba(30, 120, 160, 0.85), rgba(30, 120, 160, 0.04) 46%, transparent 78%);
+    opacity: 0.12;
+}
+
+.layer--5 {
+    width: 140px;
+    height: 140px;
+    left: 44%;
+    top: 28%;
+    background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.02) 40%, transparent 80%);
+    opacity: 0.08;
+}
+
+/* main content sits above layers */
+.slide-content {
+    position: relative;
+    z-index: 2;
+    max-width: 1100px;
+    text-align: center;
+    padding: 18px 28px;
+}
+
+.slide-content h1 {
+    font-size: clamp(28px, 5.8vw, 64px);
+    line-height: 1.02;
+    margin: 0 0 18px;
+    font-weight: 800;
+    color: #fff;
+    text-shadow: 0 6px 26px rgba(6, 12, 8, 0.24);
+}
+
+.slide-content p {
+    max-width: 820px;
+    margin: 0 auto 26px;
+    color: rgba(255, 255, 255, 0.92);
+    font-size: clamp(14px, 1.6vw, 18px);
+    line-height: 1.7;
+}
+
+/* CTA */
+.slide-content .cta {
+    display: inline-block;
+    background: linear-gradient(180deg, #ffffff 0%, #f2f2f2 100%);
+    color: #1f5a1f;
+    padding: 14px 28px;
+    border-radius: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 10px 30px rgba(40, 90, 40, 0.12);
+    transition: transform .22s cubic-bezier(.2, .9, .3, 1), box-shadow .22s;
+}
+
+.slide-content .cta:hover,
+.slide-content .cta:focus {
+    transform: translateY(-4px);
+    box-shadow: 0 18px 40px rgba(40, 90, 40, 0.16);
+    outline: none;
+}
+
+/* reduce motion & disable mouse parallax on small / touch devices */
+@media (max-width: 768px),
+(pointer: coarse) {
+    .bokeh__layer {
+        filter: blur(28px);
+        transition: transform 240ms ease;
+    }
+
+    .slide-session {
+        min-height: 56vh;
+        padding: 56px 18px;
+        border-radius: 6px;
+    }
+}
+
+/* respects user motion preference */
+@media (prefers-reduced-motion: reduce) {
+    .bokeh__layer {
+        transition: none !important;
+        transform: none !important;
+    }
+}
+
+/* ...existing code... */
