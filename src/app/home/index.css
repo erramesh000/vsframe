@@ -10,7 +10,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Dark overlay */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +22,10 @@
 .hero-content h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
+}
+
+.WCUs {
+    padding: 100px 0px 100px 0px;
 }
 
 .hero-content p {
@@ -39,10 +44,72 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #f4a261; /* Button color */
+    background-color: #f4a261;
+    /* Button color */
     color: #fff;
 }
 
 .cta-button.secondary {
-    background-color: #2a9d8f; /* Secondary button color */
+    background-color: #2a9d8f;
+    /* Secondary button color */
+}
+
+/* Feature icons (Why Choose Us?) */
+.feature-icon {
+    width: 36px;
+    height: 36px;
+    display: inline-grid;
+    place-items: center;
+    border-radius: 9999px;
+    font-size: 20px;
+    /* emoji size */
+    line-height: 1;
+    background: radial-gradient(closest-side, rgba(59, 130, 246, .18), rgba(59, 130, 246, .06));
+    box-shadow: 0 6px 16px rgba(15, 23, 42, .12), inset 0 0 0 1px rgba(59, 130, 246, .18);
+    animation: iconFloat 4.5s ease-in-out infinite, iconGlow 3.6s ease-in-out infinite;
+}
+
+.feature-icon--tools {
+    background: radial-gradient(closest-side, rgba(34, 197, 94, .20), rgba(34, 197, 94, .06));
+    box-shadow: 0 6px 16px rgba(15, 23, 42, .12), inset 0 0 0 1px rgba(34, 197, 94, .22);
+}
+
+.feature-icon--shield {
+    background: radial-gradient(closest-side, rgba(56, 189, 248, .20), rgba(56, 189, 248, .06));
+    box-shadow: 0 6px 16px rgba(15, 23, 42, .12), inset 0 0 0 1px rgba(56, 189, 248, .22);
+}
+
+@keyframes iconFloat {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-5px) rotate(.6deg);
+    }
+
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+}
+
+@keyframes iconGlow {
+
+    0%,
+    100% {
+        filter: drop-shadow(0 4px 10px rgba(59, 130, 246, .18));
+        opacity: .95;
+    }
+
+    50% {
+        filter: drop-shadow(0 8px 16px rgba(59, 130, 246, .30));
+        opacity: 1;
+    }
+}
+
+/* Respect user motion preferences */
+@media (prefers-reduced-motion: reduce) {
+    .feature-icon {
+        animation: none !important;
+    }
 }
