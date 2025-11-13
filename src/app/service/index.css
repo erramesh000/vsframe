@@ -9,6 +9,8 @@
     padding: 32px 20px;
     color: #153b24;
     font-family: var(--app-font, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial);
+    overflow-x: hidden;
+    /* prevent horizontal scrollbars with full-bleed sections */
 }
 
 /* Header */
@@ -45,6 +47,19 @@
     margin-bottom: 22px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+}
+
+/* Hide horizontal scrollbar inside slider while keeping scroll functionality */
+.slides {
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE/Edge */
+}
+
+.slides::-webkit-scrollbar {
+    display: none;
+    /* Chrome/Safari */
 }
 
 .service-quicknav a {
