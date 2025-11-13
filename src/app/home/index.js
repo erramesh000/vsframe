@@ -21,10 +21,10 @@ export default function Home() {
     return (
         <>
             <div className="relative h-screen bg-cover bg-center" style={{ backgroundImage: "url('../images/IMG-20251111-WA0024.jpg')" }}>
-                <div className="absolute inset-0 backdrop-invert backdrop-opacity-30 flex items-center justify-center text-center">
+                <div className="absolute inset-0 backdrop-invert backdrop-opacity-10 flex items-center justify-center text-center">
                     <div className="text-white">
-                        <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                            Deck, Framing & Interior Contractor
+                        <h1 className="text-4xl md:text-5xl font-bold mb-4 hero-title">
+                            Deck, Framing & Drywall  Contractor
                         </h1>
                         {/* <p className="text-lg md:text-xl mb-6">Custom deck construction that's built to a moral code</p> */}
                         <div className="flex flex-col md:flex-row items-center gap-4 justify-center">
