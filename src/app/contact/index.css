@@ -41,6 +41,80 @@
     opacity: 0.9;
 }
 
+/* Brand logos strip */
+.contact-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 18px;
+}
+
+.brand-logo {
+    border-radius: 16px;
+    filter: drop-shadow(0 12px 20px rgba(8, 20, 10, 0.18));
+    transition: transform .36s cubic-bezier(.2, .9, .3, 1), filter .28s ease;
+    animation: logoFloat 5.6s ease-in-out infinite, logoGlow 4.2s ease-in-out infinite;
+}
+
+.brand-logo:hover {
+    transform: translateY(-6px) scale(1.04);
+    filter: drop-shadow(0 18px 34px rgba(8, 20, 10, 0.26));
+}
+
+.brand-logo--ca {
+    box-shadow: inset 0 0 0 1px rgba(56, 189, 248, 0.18);
+}
+
+.brand-logo--work {
+    box-shadow: inset 0 0 0 1px rgba(34, 197, 94, 0.18);
+}
+
+@keyframes logoFloat {
+    0% {
+        transform: translateY(0)
+    }
+
+    50% {
+        transform: translateY(-5px)
+    }
+
+    100% {
+        transform: translateY(0)
+    }
+}
+
+@keyframes logoGlow {
+
+    0%,
+    100% {
+        opacity: .95
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+@media (max-width: 640px) {
+    .contact-logos {
+        gap: 12px;
+    }
+
+    .brand-logo {
+        width: 96px;
+        height: 96px;
+    }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .brand-logo {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+
 /* layout: use flexible aside width and clamp to avoid overflow */
 .contact-inner {
     display: grid;

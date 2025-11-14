@@ -134,6 +134,12 @@ export default function Contact() {
                     {/* <strong>Thanks — we received your message</strong>
                     <span>We’ll get back to you within 2 business days.</span> */}
                 </div>
+
+                {/* Brand logos strip */}
+                <div className="contact-logos" aria-hidden="true">
+                    <Image src="/images/VSFRAMECA.png" alt="VSFRAME CA" width={120} height={120} className="brand-logo brand-logo--ca" />
+                    <Image src="/images/VSFRAMEwork.png" alt="VSFRAME Work" width={140} height={140} className="brand-logo brand-logo--work" />
+                </div>
             </main>
         </div>
     );

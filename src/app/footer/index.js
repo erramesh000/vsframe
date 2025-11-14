@@ -4,6 +4,8 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import greennew from "../images/VSFRAME.png";
+import vsFrameCa from "../images/VSFRAMECA.png";
+import vsFrameWork from "../images/VSFRAMEwork.png";
 import "./index.css";
 
 const currentYear = new Date().getFullYear();
@@ -37,6 +39,15 @@ export default function Footer() {
                             <a href="https://facebook.com/VSFrameConstruction" className="fc-link" target="_blank" rel="noreferrer">/VSFrameConstruction</a>
                         </li>
                     </ul>
+                    {/* Additional brand / certification logos */}
+                    <div className="fc-logos" aria-hidden="true">
+                        <div className="fc-logo-wrap fc-logo-wrap--ca">
+                            <Image src={vsFrameCa} alt="VSFRAME Canada mark" width={120} height={120} className="fc-logo-img" />
+                        </div>
+                        <div className="fc-logo-wrapbc fc-logo-wrap--work">
+                            <Image src={vsFrameWork} alt="WorkSafe BC mark" width={140} height={80} className="fc-logo-img" />
+                        </div>
+                    </div>
                 </div>
 
                 {/* Center: Badge + meta */}
@@ -44,6 +55,7 @@ export default function Footer() {
                     <div className="fc-badge" aria-hidden="true">
                         <Image src={greennew} alt="VSFRAME logo" width={80} height={80} className="fc-badge-img" priority />
                     </div>
+
                     <ul className="fc-list fc-center-list">
                         <li>
                             <span className="fc-ico" aria-hidden="true">

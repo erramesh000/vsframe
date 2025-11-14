@@ -9,6 +9,107 @@
     font-family: var(--app-font, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial);
 }
 
+/* New image gallery (two-up) */
+.ig-page {
+    margin: 60px;
+    padding: 32px 20px 34px;
+    background: #ffffff;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* decorative orb-like glows in the corners */
+.ig-page::before,
+.ig-page::after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    filter: blur(18px) saturate(120%);
+    opacity: 0.22;
+    pointer-events: none;
+}
+
+.ig-page::before {
+    top: -60px;
+    left: -40px;
+    background: radial-gradient(circle at 40% 40%, #5a7cff, transparent 60%);
+}
+
+.ig-page::after {
+    top: -40px;
+    right: -60px;
+    background: radial-gradient(circle at 60% 40%, #7b6bff, transparent 60%);
+}
+
+.ig-inner {
+    width: 100%;
+}
+
+.ig-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(16px, 2.8vw, 32px);
+    align-items: start;
+}
+
+.ig-card {
+    margin: 0;
+}
+
+.ig-media {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 28px;
+    overflow: hidden;
+    background: #f7f9fb;
+    box-shadow: 0 20px 50px rgba(10, 18, 40, 0.25), inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.ig-img {
+    object-fit: cover;
+}
+
+.ig-caption {
+    margin: 14px 6px 4px;
+    color: #36444f;
+    font-weight: 600;
+    font-size: clamp(16px, 2vw, 22px);
+    letter-spacing: 0.2px;
+}
+
+/* header */
+.ig-header {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.ig-title {
+    margin: 0 0 8px;
+    color: #eaf1ff;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    line-height: 1.15;
+    font-size: clamp(22px, 4.6vw, 36px);
+}
+
+.ig-sub {
+    margin: 0 auto;
+    max-width: 760px;
+    color: rgba(233, 241, 255, 0.76);
+    font-size: clamp(13px, 1.6vw, 15px);
+}
+
+@media (max-width: 900px) {
+    .ig-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* header */
 .insight-header {
     text-align: center;

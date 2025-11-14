@@ -1,18 +1,78 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import Image from "next/image";
 import "./index.css";
-import greennew from "../images/VSFRAME.png"; // decorative - can be used in cards
-
-
 
 export default function Insight() {
-    const rootRef = useRef(null);
-
-
+    const items = [
+        {
+            src: "/images/vsframe-3.jpg",
+            alt: "Isometric mini-house concept with floating elements",
+            caption: "Imagination Odyssey: Navigating Creative Horizons",
+        },
+        {
+            src: "/images/vsframe-4.jpg",
+            alt: "Sleek phone screen mockup with soft gradients",
+            caption: "Fusion Frames: Blending Art and Technology",
+        },
+        {
+            src: "/images/vsframe-5.jpg",
+            alt: "Person in VR headset with particles and teal background",
+            caption: "Pixel Pulse: Resonating Visual Vibrancy",
+        },
+        {
+            src: "/images/vsframe-1.jpg",
+            alt: "Abstract bubbles composition in soft blue and purple",
+            caption: "Dreamscape Dynamics: Where Ideas Flourish",
+        },
+        {
+            src: "/images/vsframe-6.jpg",
+            alt: "Mobile UX mockup with charts and cards",
+            caption: "Innovate Xperience: Redefining User Engagement",
+        },
+        {
+            src: "/images/vsframe-7.jpg",
+            alt: "Profile of woman with yellow sculptural paper",
+            caption: "Mosaic Minds: Crafting Collective Creativity",
+        },
+        {
+            src: "/images/vsframe-2.jpg",
+            alt: "Portrait with sculptural white fabric against dark background",
+            caption: "Spectrum Sparks: A Colorful Journey",
+        },
+        {
+            src: "/images/vsframe-8.jpg",
+            alt: "Abstract composition of circular forms and device edges",
+            caption: "Beyond Canvas: Exploring Digital Frontiers",
+        },
+    ];
 
     return (
-        <></>
+        <section className="ig-page" aria-label="Featured case studies">
+            <div className="ig-inner">
+                <header className="ig-header">
+                    <h2 className="ig-title">A Showcase of Our Creative Excellence and Innovation</h2>
+                    <p className="ig-sub">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </header>
+                <div className="ig-grid">
+                    {items.map((item, i) => (
+                        <figure key={i} className="ig-card">
+                            <div className="ig-media">
+                                <Image
+                                    src={item.src}
+                                    alt={item.alt}
+                                    fill
+                                    sizes="(max-width: 900px) 100vw, 50vw"
+                                    className="ig-img"
+                                    priority={i < 2}
+                                />
+                            </div>
+                            <figcaption className="ig-caption">{item.caption}</figcaption>
+                        </figure>
+                    ))}
+                </div>
+            </div>
+        </section>
     );
 }
