@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import "./index.css";
 import { useState } from "react";
 export default function Home() {
@@ -7,6 +8,12 @@ export default function Home() {
         "../images/IMG-20251111-WA0018.jpg",
         "../images/IMG-20251111-WA0019.jpg",
         "../images/IMG-20251111-WA0020.jpg",
+    ];
+    const services = [
+        { name: "Custom Deck", link: "customdeck", image: "../images/IMG-20251111-WA0016.jpg" },
+        { name: "Framing Service", link: "framing", image: "../images/IMG-20251111-WA0018.jpg" },
+        { name: "Drywall Service", link: "drywall", image: "../images/IMG-20251111-WA0019.jpg" },
+        { name: "Handyman Service", link: "handyman", image: "../images/IMG-20251111-WA0020.jpg" },
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -149,24 +156,19 @@ export default function Home() {
                                         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
                                     >
                                         {/* Group images into slides with three items per slide */}
-                                        {images.map((image, index) => (
+                                        {services.map((service, index) => (
                                             <div key={index} className="min-w-full flex justify-center gap-4">
                                                 <div className="w-1/2 flex flex-col items-center bg-white rounded-lg shadow-lg p-4">
-                                                    <img
-                                                        src={image}
-                                                        alt={`Slide ${index + 1}`}
-                                                        className="w-full h-100 object-cover rounded-lg"
-                                                    />
-                                                    <h3 className="text-2xl font-semibold text-center text-gray-700 mt-2">
-                                                        {index === 0
-                                                            ? "Custom Decks"
-                                                            : index === 1
-                                                                ? "Framing Services"
-                                                                : index === 2
-                                                                    ? "Drywall Services"
-                                                                    : "Handyman Services"
-                                                        }
-                                                    </h3>
+                                                    <Link className="" href={`/services/${service.link}`}>
+                                                        <img
+                                                            src={service.image}
+                                                            alt={`${service.name}`}
+                                                            className="w-full h-100 object-cover rounded-lg"
+                                                        />
+                                                        <h3 className="text-2xl font-semibold text-center text-gray-700 mt-2">
+                                                            {service.name}
+                                                        </h3>
+                                                    </Link>
                                                 </div>
                                             </div>
                                         ))}
