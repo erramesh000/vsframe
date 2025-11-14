@@ -4,10 +4,10 @@ import "./index.css";
 import { useState } from "react";
 export default function Home() {
     const images = [
-        "../images/IMG-20251111-WA0016.jpg",
-        "../images/IMG-20251111-WA0018.jpg",
-        "../images/IMG-20251111-WA0019.jpg",
-        "../images/IMG-20251111-WA0020.jpg",
+        "../images/vsframe-6.jpg",
+        "../images/vsframe-7.jpg",
+        "../images/vsframe-8.jpg",
+        "../images/vsframe-9.jpg",
     ];
     const services = [
         { name: "Custom Deck", link: "customdeck", image: "../images/IMG-20251111-WA0016.jpg" },
@@ -27,7 +27,7 @@ export default function Home() {
     };
     return (
         <>
-            <div className="relative h-screen bg-cover bg-center" style={{ backgroundImage: "url('../images/IMG-20251111-WA0024.jpg')" }}>
+            <div className="relative h-screen bg-cover bg-center" style={{ backgroundImage: "url('../images/vsframe-6.jpg')" }}>
                 <div className="absolute inset-0 backdrop-invert backdrop-opacity-10 flex items-center justify-center text-center">
                     <div className="text-white">
                         <h1 className="text-4xl md:text-5xl font-bold mb-4 hero-title">
@@ -113,7 +113,7 @@ export default function Home() {
                         <div className="relative group order-2 md:order-1">
                             <span className="absolute -inset-6 bg-gradient-to-tr from-green-200/40 via-emerald-100/30 to-sky-200/40 blur-2xl rounded-3xl" aria-hidden="true" />
                             <img
-                                src="../images/IMG-20251111-WA0024.jpg"
+                                src="../images/vsframe-15.jpg"
                                 alt="VSFRAME project in progress"
                                 className="relative z-10 w-full h-auto object-cover rounded-xl shadow-2xl transition-transform duration-500 group-hover:scale-[1.02]"
                             />
@@ -143,7 +143,7 @@ export default function Home() {
             </section>
 
             <section className="w-full mx-auto bg-white mt-5 p-2">
-                <div className="relative h-screen bg-cover bg-center" style={{ backgroundImage: "url('../images/IMG-20251111-WA0024.jpg')" }}>
+                <div className="relative h-screen bg-cover bg-center" style={{ backgroundImage: "url('../images/vsframe-15.jpg')" }}>
                     <div className="absolute inset-0 backdrop-invert backdrop-opacity-30 flex items-center justify-center text-center overflow-hidden">
                         <div className="text-white">
                             <h1 className="text-4xl md:text-5xl font-bold mb-4">
