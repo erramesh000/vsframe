@@ -9,42 +9,42 @@ export default function Insight() {
         {
             src: "/images/vsframe-3.jpg",
             alt: "Isometric mini-house concept with floating elements",
-            caption: "Imagination Odyssey: Navigating Creative Horizons",
+            caption: "Framing Service",
         },
         {
             src: "/images/vsframe-4.jpg",
             alt: "Sleek phone screen mockup with soft gradients",
-            caption: "Fusion Frames: Blending Art and Technology",
+            caption: "Drywall Service",
         },
         {
             src: "/images/vsframe-5.jpg",
             alt: "Person in VR headset with particles and teal background",
-            caption: "Pixel Pulse: Resonating Visual Vibrancy",
+            caption: "Handyman Service",
         },
         {
             src: "/images/vsframe-1.jpg",
             alt: "Abstract bubbles composition in soft blue and purple",
-            caption: "Dreamscape Dynamics: Where Ideas Flourish",
+            caption: "Custom Decks",
         },
         {
             src: "/images/vsframe-6.jpg",
             alt: "Mobile UX mockup with charts and cards",
-            caption: "Innovate Xperience: Redefining User Engagement",
+            caption: "Renovations & Additions",
         },
         {
             src: "/images/vsframe-7.jpg",
             alt: "Profile of woman with yellow sculptural paper",
-            caption: "Mosaic Minds: Crafting Collective Creativity",
+            caption: "Exterior Siding & Cladding",
         },
         {
             src: "/images/vsframe-2.jpg",
             alt: "Portrait with sculptural white fabric against dark background",
-            caption: "Spectrum Sparks: A Colorful Journey",
+            caption: "Interior Painting",
         },
         {
             src: "/images/vsframe-8.jpg",
             alt: "Abstract composition of circular forms and device edges",
-            caption: "Beyond Canvas: Exploring Digital Frontiers",
+            caption: "Flooring & Finishes",
         },
     ];
 
@@ -52,8 +52,8 @@ export default function Insight() {
         <section className="ig-page" aria-label="Featured case studies">
             <div className="ig-inner">
                 <header className="ig-header">
-                    <h2 className="ig-title">A Showcase of Our Creative Excellence and Innovation</h2>
-                    <p className="ig-sub">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h2 className="ig-title">Our Services</h2>
+                    <p className="ig-sub">Quality craftsmanship across framing, drywall, decks, renovations, and more.</p>
                 </header>
                 <div className="ig-grid">
                     {items.map((item, i) => (

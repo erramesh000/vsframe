@@ -25,7 +25,7 @@ export default function Header() {
     const menu = [
         { href: "/", label: "Home" },
         { href: "/about", label: "About us" },
-        { href: "/service", label: "Services" },
+        { href: "./services/customdeck", label: "Services" },
         { href: "/insight", label: "Our Work" },
         { href: "/contact", label: "Contact" },
     ];
