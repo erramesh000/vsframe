@@ -10,10 +10,10 @@ export default function Home() {
         "../images/vsframe-9.jpg",
     ];
     const services = [
-        { name: "Custom Deck", link: "customdeck", image: "../images/IMG-20251111-WA0016.jpg" },
-        { name: "Framing Service", link: "framing", image: "../images/IMG-20251111-WA0018.jpg" },
-        { name: "Drywall Service", link: "drywall", image: "../images/IMG-20251111-WA0019.jpg" },
-        { name: "Handyman Service", link: "handyman", image: "../images/IMG-20251111-WA0020.jpg" },
+        { name: "Custom Deck", link: "customdeck", image: "../images/vsframe-6.jpg" },
+        { name: "Framing Service", link: "framing", image: "../images/vsframe-7.jpg" },
+        { name: "Drywall Service", link: "drywall", image: "../images/vsframe-8.jpg" },
+        { name: "Handyman Service", link: "handyman", image: "../images/vsframe-9.jpg" },
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
