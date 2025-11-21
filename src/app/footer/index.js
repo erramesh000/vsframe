@@ -22,21 +22,21 @@ export default function Footer() {
                                 {/* phone */}
                                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V21a1 1 0 01-1 1C10.07 22 2 13.93 2 3a1 1 0 011-1h3.5a1 1 0 011 1c0 1.24.2 2.45.57 3.57a1 1 0 01-.24 1.02l-2.2 2.2z" /></svg>
                             </span>
-                            <a href="tel:+16040000000" className="fc-link">(604) 000-0000</a>
+                            <a href="tel:+16040000000" className="fc-link">+1 (604) 512-5129</a>
                         </li>
                         <li>
                             <span className="fc-ico" aria-hidden="true">
                                 {/* instagram */}
                                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2c1.66 0 3 1.34 3 3v10c0 1.66-1.34 3-3 3H7c-1.66 0-3-1.34-3-3V7c0-1.66 1.34-3 3-3h10zm-5 4a5 5 0 100 10 5 5 0 000-10zm4.5-.25a1.25 1.25 0 112.5 0 1.25 1.25 0 01-2.5 0z" /></svg>
                             </span>
-                            <a href="https://instagram.com/VSFrameConstruction" className="fc-link" target="_blank" rel="noreferrer">@VSFrameConstruction</a>
+                            <a href="https://www.instagram.com/vsframe_/" className="fc-link" target="_blank" rel="noreferrer">@vsframe_</a>
                         </li>
                         <li>
                             <span className="fc-ico" aria-hidden="true">
                                 {/* facebook */}
                                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 10-11.6 9.9v-7h-2.3V12h2.3V9.7c0-2.3 1.4-3.6 3.5-3.6 1 0 2 .2 2 .2v2.2h-1.1c-1.1 0-1.4.7-1.4 1.4V12h2.4l-.4 2.9h-2v7A10 10 0 0022 12z" /></svg>
                             </span>
-                            <a href="https://facebook.com/VSFrameConstruction" className="fc-link" target="_blank" rel="noreferrer">/VSFrameConstruction</a>
+                            <a href="https://www.instagram.com/vsframe_/" className="fc-link" target="_blank" rel="noreferrer">/vsframe_</a>
                         </li>
                     </ul>
                     {/* Additional brand / certification logos */}
@@ -76,7 +76,8 @@ export default function Footer() {
                                 {/* pin */}
                                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a7 7 0 00-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 00-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" /></svg>
                             </span>
-                            Metro Vancouver, BC
+                            514, 13623, <br />81a avenue
+                            Surrey,<br />Canada
                         </li>
                     </ul>
                 </div>
