@@ -65,7 +65,7 @@ export default function Drywall() {
                         <p className="mb-4 text-gray-700">
                             From board hanging to Level 5 finishes, we deliver smooth, durable walls and ceilings. Our teams handle taping, mudding, sanding, corner beads, and textures while maintaining clean, contained work areas.
                         </p>
-                        <img src="/images/vsframe-4.jpg" alt="Drywall" className="w-full h-48 object-cover rounded-lg mb-6" />
+                        <img src="/images/vsframe-4.jpg" alt="VSFRAME CANADA" className="w-full h-48 object-cover rounded-lg mb-6" />
 
                         <h3 className="text-xl font-semibold text-gray-800 mb-2">Scope of Work</h3>
                         <ul className="list-disc list-inside mb-4 text-gray-700">

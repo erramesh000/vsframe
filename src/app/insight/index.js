@@ -61,7 +61,7 @@ export default function Insight() {
                             <div className="ig-media">
                                 <Image
                                     src={item.src}
-                                    alt={item.alt}
+                                    alt="VSFRAME CANADA"
                                     fill
                                     sizes="(max-width: 900px) 100vw, 50vw"
                                     className="ig-img"

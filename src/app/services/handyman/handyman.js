@@ -65,7 +65,7 @@ export default function Handyman() {
                         <p className="mb-4 text-gray-700">
                             Quick, dependable fixes for the tasks that stack up: repairs, installations, and small improvements done right the first time. We prioritize tidy work and minimal disruption to your home or business.
                         </p>
-                        <img src="/images/vsframe-5.jpg" alt="Handyman" className="w-full h-48 object-cover rounded-lg mb-6" />
+                        <img src="/images/vsframe-5.jpg" alt="VSFRAME CANADA" className="w-full h-48 object-cover rounded-lg mb-6" />
 
                         <h3 className="text-xl font-semibold text-gray-800 mb-2">Common Requests</h3>
                         <ul className="list-disc list-inside mb-4 text-gray-700">

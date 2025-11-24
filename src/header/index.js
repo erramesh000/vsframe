@@ -36,7 +36,7 @@ export default function Header() {
                 <Link href="/" className="gn-brand" aria-label="vsframe home">
                     <Image
                         src={vsframe}
-                        alt="vsframe logo"
+                        alt="VSFRAME CANADA"
                         className="gn-logo"
                         width={200}
                         height={200}

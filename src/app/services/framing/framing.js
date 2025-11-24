@@ -65,7 +65,7 @@ export default function Framing() {
                         <p className="mb-4 text-gray-700">
                             We deliver precise wood and steel-stud framing for new builds, additions, and tenant improvements. From engineered beams to straight, true walls, our crews focus on accuracy, speed, and a clean site so the next trades can move in without delays.
                         </p>
-                        <img src="/images/vsframe-3.jpg" alt="Framing" className="w-full h-48 object-cover rounded-lg mb-6" />
+                        <img src="/images/vsframe-3.jpg" alt="VSFRAME CANADA" className="w-full h-48 object-cover rounded-lg mb-6" />
 
                         <h3 className="text-xl font-semibold text-gray-800 mb-2">What We Frame</h3>
                         <ul className="list-disc list-inside mb-4 text-gray-700">

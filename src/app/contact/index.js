@@ -124,7 +124,7 @@ export default function Contact() {
                             </ul>
 
                             <div className="contact-card-brand" aria-hidden="true">
-                                <Image src={greennew} alt="GreenNew" width={160} className="brand-img" priority />
+                                <Image src={greennew} alt="VSFRAME CANADA" width={160} className="brand-img" priority />
                             </div>
                         </div>
                     </aside>
@@ -137,8 +137,8 @@ export default function Contact() {
 
                 {/* Brand logos strip */}
                 <div className="contact-logos" aria-hidden="true">
-                    <Image src="/images/VSFRAMECA.png" alt="VSFRAME CA" width={120} height={120} className="brand-logo brand-logo--ca" />
-                    <Image src="/images/VSFRAMEwork.png" alt="VSFRAME Work" width={140} height={140} className="brand-logo brand-logo--work" />
+                    <Image src="/images/VSFRAMECA.png" alt="VSFRAME CANADA" width={120} height={120} className="brand-logo brand-logo--ca" />
+                    <Image src="/images/VSFRAMEwork.png" alt="VSFRAME CANADA" width={140} height={140} className="brand-logo brand-logo--work" />
                 </div>
             </main>
         </div>

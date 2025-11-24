@@ -80,7 +80,7 @@ export default function Home() {
                 <div className="relative h-full">
                     <img
                         src={images[currentIndex]}
-                        alt="Slider Image"
+                        alt="VSFRAME CANADA"
                         className="absolute inset-0 w-full h-full object-cover"
                     />
                     <button
@@ -124,7 +124,7 @@ export default function Home() {
                             <span className="absolute -inset-6 bg-gradient-to-tr from-green-200/40 via-emerald-100/30 to-sky-200/40 blur-2xl rounded-3xl" aria-hidden="true" />
                             <img
                                 src="../images/vsframe-15.jpg"
-                                alt="VSFRAME project in progress"
+                                alt="VSFRAME CANADA"
                                 className="relative z-10 w-full h-auto object-cover rounded-xl shadow-2xl transition-transform duration-500 group-hover:scale-[1.02]"
                             />
                         </div>
@@ -172,7 +172,7 @@ export default function Home() {
                                                     <Link className="" href={`/services/${service.link}`}>
                                                         <img
                                                             src={service.image}
-                                                            alt={`${service.name}`}
+                                                            alt="VSFRAME CANADA"
                                                             className="w-full h-100 object-cover rounded-lg"
                                                         />
                                                         <h3 className="text-2xl font-semibold text-center text-gray-700 mt-2">

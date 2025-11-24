@@ -123,7 +123,7 @@ export default function Service() {
                         <figure key={src} style={{ flex: "0 0 100%", scrollSnapAlign: "center", margin: 0 }}>
                             <Image
                                 src={src}
-                                alt={`Slide ${idx + 1}`}
+                                alt="VSFRAME CANADA"
                                 width={1280}
                                 height={680}
                                 priority={idx === 0}

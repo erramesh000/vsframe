@@ -42,10 +42,10 @@ export default function Footer() {
                     {/* Additional brand / certification logos */}
                     <div className="fc-logos" aria-hidden="true">
                         <div className="fc-logo-wrap fc-logo-wrap--ca">
-                            <Image src={vsFrameCa} alt="VSFRAME Canada mark" width={120} height={120} className="fc-logo-img" />
+                            <Image src={vsFrameCa} alt="VSFRAME CANADA" width={120} height={120} className="fc-logo-img" />
                         </div>
                         <div className="fc-logo-wrapbc fc-logo-wrap--work">
-                            <Image src={vsFrameWork} alt="WorkSafe BC mark" width={140} height={80} className="fc-logo-img" />
+                            <Image src={vsFrameWork} alt="VSFRAME CANADA" width={140} height={80} className="fc-logo-img" />
                         </div>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ export default function Footer() {
                 {/* Center: Badge + meta */}
                 <div className="fc-col fc-center" aria-label="Business details">
                     <div className="fc-badge" aria-hidden="true">
-                        <Image src={greennew} alt="VSFRAME logo" width={80} height={80} className="fc-badge-img" priority />
+                        <Image src={greennew} alt="VSFRAME CANADA" width={80} height={80} className="fc-badge-img" priority />
                     </div>
 
                     <ul className="fc-list fc-center-list">

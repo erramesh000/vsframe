@@ -83,7 +83,7 @@ export default function About() {
 
                 <aside className="about-right" data-reveal>
                     <div className="about-card">
-                        <Image src={greennew} alt="GreenNew" width={520} height={360} className="about-hero-img" priority />
+                        <Image src={greennew} alt="VSFRAME CANADA" width={520} height={360} className="about-hero-img" priority />
                     </div>
 
                     <div className="about-quick">

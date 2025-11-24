@@ -62,7 +62,7 @@ export default function CustomDeck() {
                         <p className="mb-6 text-gray-700">
                             A deck is more than just a platform with railings — it’s an extension of your home. It’s where morning coffee tastes better, summer evenings feel longer, and get-togethers become unforgettable. With thoughtful design and expert craftsmanship, a custom deck can completely transform the way you enjoy your home and the outdoors.
                         </p>
-                        <img src="/images/vsframe-1.jpg" alt="Deck Example" className="w-full h-48 object-cover rounded-lg mb-6" />
+                        <img src="/images/vsframe-1.jpg" alt="VSFRAME CANADA" className="w-full h-48 object-cover rounded-lg mb-6" />
 
                         <h3 className="text-xl font-semibold text-gray-800 mb-2">Choosing the Right Deck for Your Home</h3>
                         <p className="mb-4 text-gray-700">
