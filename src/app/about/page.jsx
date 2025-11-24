@@ -65,20 +65,29 @@ export default function About() {
 
             <div className="about-inner">
                 <div className="about-left" data-reveal>
-                    <h1>About GRX</h1>
-
-                    <h2>Our Mission</h2>
+                    <h1>About VSFrame</h1>
                     <p>
-                        To accelerate the transition towards a sustainable future by providing strategic consulting, education, and technological solutions in renewable energy, ESG, and smart cities.
-
-                        We aim to create measurable impact through innovation, collaboration, and capacity building—empowering businesses and communities to thrive while preserving the planet.
+                        VSFrame is a trusted name in the construction industry, led by a highly skilled Red Seal Carpenter with years of hands-on experience in framing, drywall, and composite decking. We take pride in transforming residential and commercial spaces with craftsmanship that reflects precision, durability, and a genuine passion for building.
+                    </p>
+                    <p>
+                        At VSFrame, every project begins with understanding the client’s needs, vision, and long-term goals. From structural framing that forms the backbone of a building to flawless drywall finishing that brings a room to life, our work is rooted in high standards and attention to detail. We believe that a project is not just about construction—it’s about creating a space that feels strong, functional, and visually appealing.
+                    </p>
+                    <p>
+                        Our expertise extends to composite decking, where we design and build outdoor spaces that are both beautiful and built to last. Using advanced materials, we create decks that resist weather, wear, and time, giving homeowners and businesses long-lasting value with minimal maintenance.
+                    </p>
+                    <p>
+                        Whether the project is a new home build, a renovation, or a commercial improvement, VSFrame approaches each task with professionalism, transparency, and a commitment to excellence. We understand deadlines, respect budgets, and maintain clear communication throughout the entire process, ensuring clients always know what to expect.
+                    </p>
+                    <p>
+                        What sets VSFrame apart is not only technical expertise but also a genuine dedication to customer satisfaction. We believe that high-quality workmanship should be supported by honesty, reliability, and a strong work ethic. Every nail, cut, and finish is completed with pride, knowing our work becomes a lasting part of someone’s home or business.
+                    </p>
+                    <p>
+                        When clients choose VSFrame, they’re choosing a partner who values their investment and treats their project as if it were our own. Whether it’s framing the structure of a future living space, installing smooth and seamless drywall, or crafting a modern composite deck, VSFrame delivers results that stand the test of time.
+                    </p>
+                    <p>
+                        If you’re looking for craftsmanship backed by skill, experience, and integrity, VSFrame is ready to help bring your vision to life.
                     </p>
 
-                    <h2>Our Vision</h2>
-                    <p>
-                        To be a global leader in driving sustainable transformation by empowering industries, governments,
-                        and communities with innovative solutions for a greener, more resilient future.
-                    </p>
                 </div>
 
                 <aside className="about-right" data-reveal>
