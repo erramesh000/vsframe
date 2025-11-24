@@ -42,10 +42,10 @@ export default function Footer() {
                     {/* Additional brand / certification logos */}
                     <div className="fc-logos" aria-hidden="true">
                         <div className="fc-logo-wrap fc-logo-wrap--ca">
-                            <Image src={vsFrameCa} alt="VSFRAME CANADA" width={120} height={120} className="fc-logo-img" />
+                            <Image src={vsFrameCa} alt="VSFRAME CANADA" width={100} height={80} className="fc-logo-img" />
                         </div>
-                        <div className="fc-logo-wrapbc fc-logo-wrap--work">
-                            <Image src={vsFrameWork} alt="VSFRAME CANADA" width={140} height={80} className="fc-logo-img" />
+                        <div className="fc-logo-wrap fc-logo-wrap--work">
+                            <Image src={vsFrameWork} alt="VSFRAME CANADA" width={100} height={80} className="fc-logo-img" />
                         </div>
                     </div>
                 </div>
@@ -85,9 +85,9 @@ export default function Footer() {
                 {/* Right: Quick links */}
                 <nav className="fc-col fc-links" aria-label="Footer links">
                     <ul className="fc-list fc-links-list">
-                        <li><Link className="fc-link" href="/service">Services</Link></li>
-                        <li><Link className="fc-link" href="/insight">Projects</Link></li>
-                        <li><Link className="fc-link" href="/about">Testimonials</Link></li>
+                        <li><Link className="fc-link" href="/services/customdeck">Services</Link></li>
+                        <li><Link className="fc-link" href="/insight">Our Work</Link></li>
+                        <li><Link className="fc-link" href="/about">About Us</Link></li>
                         <li><Link className="fc-link" href="/contact">Contact</Link></li>
                     </ul>
                 </nav>
