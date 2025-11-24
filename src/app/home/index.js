@@ -35,12 +35,22 @@ export default function Home() {
                         </h1>
                         {/* <p className="text-lg md:text-xl mb-6">Custom deck construction that's built to a moral code</p> */}
                         <div className="flex flex-col md:flex-row items-center gap-4 justify-center">
-                            <button className="px-6 py-3 w-auto inline-flex bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 transition">
+                            <a
+                                href="https://wa.me/16045125129"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="px-6 py-3 w-auto inline-flex bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 transition"
+                                aria-label="Start WhatsApp chat for a free consultation"
+                            >
                                 Get a Free Consultation
-                            </button>
-                            <button className="px-6 py-3 w-auto inline-flex bg-green-500 text-white rounded-lg hover:bg-green-600 transition">
+                            </a>
+                            <a
+                                href="tel:+16045125129"
+                                className="px-6 py-3 w-auto inline-flex bg-green-500 text-white rounded-lg hover:bg-green-600 transition"
+                                aria-label="Call us today"
+                            >
                                 Call Us Today
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>

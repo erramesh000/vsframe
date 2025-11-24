@@ -390,3 +390,27 @@ button:focus {
     transform: none !important;
   }
 }
+
+/* Mobile: prevent decorative layers from causing horizontal overflow */
+@media (max-width: 768px) {
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Keep large blurred layers inside the viewport on small screens */
+  .layer--1,
+  .layer--2,
+  .layer--4 {
+    left: 0 !important;
+    right: 0 !important;
+    width: clamp(120px, 28vw, 420px) !important;
+    transform: translateX(0) !important;
+    opacity: 0.14 !important;
+  }
+
+  .bokeh {
+    overflow: hidden;
+  }
+}
