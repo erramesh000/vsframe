@@ -541,3 +541,31 @@
         height: 56px;
     }
 }
+
+/* Mobile: move the circular badge/logo above other footer columns for better visual hierarchy */
+@media (max-width: 640px) {
+    .fc-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    /* Bring the center column (badge) to the top */
+    .fc-center {
+        order: -1;
+        margin-bottom: 6px;
+    }
+
+    /* Make sure contact and links span full width and center their content */
+    .fc-contact,
+    .fc-links {
+        width: 100%;
+        align-items: center;
+    }
+
+    .fc-links {
+        justify-self: center;
+        text-align: center;
+    }
+}
