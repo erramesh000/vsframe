@@ -108,21 +108,16 @@ export default function Contact() {
 
                     <aside className="contact-info" aria-labelledby="contact-info-heading">
                         <div className="info-card">
-                            <h3 id="contact-info-heading">Integer eget erat hendrerit?</h3>
+                            <h3 id="contact-info-heading">Reach out to VSFrame today</h3>
 
                             <p>
-                                Integer eget erat hendrerit augue pretium rhoncus at eu erat. Integer ligula velit, rhoncus vel ante a, pulvinar feugiat eros. In hac habitasse platea dictumst. Nullam et magna ac erat faucibus gravida.
+                                <b>VSFrame</b> your trusted partner for framing, drywall, and composite decking solutions. We look forward to hearing from you and turning your vision into reality.
                             </p>
-
-                            <h4>Efficitur lectus vulputate</h4>
-                            <ul className="contact-list">
-                                <li>Nunc consectetur aliquam </li>
-                                <li>lacinia ac sem</li>
-                                <li>Pellentesque habitant morbi</li>
-                                <li>Nunc consectetur aliquam </li>
-                                <li>Pellentesque habitant morbi</li>
-                            </ul>
-
+                            <p>
+                                If you have questions about our services, want a customized quote, or need expert advice for your upcoming project, we encourage you to contact us today.
+                            </p>
+                            <p> VSFrame takes pride in understanding your vision and providing honest, reliable guidance tailored to your goals. We make communication easy, respond quickly, and handled with care and professionalism.
+                            </p>
                             <div className="contact-card-brand" aria-hidden="true">
                                 <Image src={greennew} alt="VSFRAME CANADA" width={160} className="brand-img" priority />
                             </div>
