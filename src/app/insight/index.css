@@ -496,3 +496,66 @@
         transition: none !important;
     }
 }
+
+/* Lightbox for image zoom */
+.ig-lightbox {
+    position: fixed;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    background: rgba(6, 8, 10, 0.6);
+    z-index: 1200;
+    padding: 24px;
+}
+
+.ig-lightbox-inner {
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    max-height: 90vh;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0b0b0b;
+    padding: 12px;
+}
+
+.ig-lightbox-img {
+    max-width: 100%;
+    max-height: 86vh;
+    object-fit: contain;
+    display: block;
+    border-radius: 6px;
+}
+
+.ig-lightbox-close {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    background: rgba(255, 255, 255, 0.06);
+    color: #fff;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 24px;
+    line-height: 1;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .ig-lightbox-inner {
+        padding: 8px;
+    }
+
+    .ig-lightbox-close {
+        right: 6px;
+        top: 6px;
+        width: 36px;
+        height: 36px;
+    }
+}

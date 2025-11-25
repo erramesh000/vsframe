@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import "./index.css";
 
@@ -8,45 +8,47 @@ export default function Insight() {
     const items = [
         {
             src: "/images/vsframe-3.jpg",
-            alt: "Isometric mini-house concept with floating elements",
-            caption: "Framing Service",
+            alt: "VSFRAME ",
         },
         {
             src: "/images/vsframe-4.jpg",
-            alt: "Sleek phone screen mockup with soft gradients",
-            caption: "Drywall Service",
+            alt: "VSFRAME",
         },
         {
             src: "/images/vsframe-5.jpg",
-            alt: "Person in VR headset with particles and teal background",
-            caption: "Handyman Service",
+            alt: "VSFRAME",
         },
         {
             src: "/images/vsframe-1.jpg",
-            alt: "Abstract bubbles composition in soft blue and purple",
-            caption: "Custom Decks",
+            alt: "VSFRAME",
         },
         {
             src: "/images/vsframe-6.jpg",
-            alt: "Mobile UX mockup with charts and cards",
-            caption: "Renovations & Additions",
+            alt: "VSFRAME",
         },
         {
             src: "/images/vsframe-7.jpg",
-            alt: "Profile of woman with yellow sculptural paper",
-            caption: "Exterior Siding & Cladding",
+            alt: "VSFRAME",
         },
         {
             src: "/images/vsframe-2.jpg",
-            alt: "Portrait with sculptural white fabric against dark background",
-            caption: "Interior Painting",
+            alt: "VSFRAME",
         },
         {
             src: "/images/vsframe-8.jpg",
-            alt: "Abstract composition of circular forms and device edges",
-            caption: "Flooring & Finishes",
+            alt: "VSFRAME",
         },
     ];
+
+    const [zoom, setZoom] = useState(null);
+
+    useEffect(() => {
+        function onKey(e) {
+            if (e.key === "Escape") setZoom(null);
+        }
+        window.addEventListener("keydown", onKey);
+        return () => window.removeEventListener("keydown", onKey);
+    }, []);
 
     return (
         <section className="ig-page" aria-label="Featured case studies">
@@ -59,20 +61,37 @@ export default function Insight() {
                     {items.map((item, i) => (
                         <figure key={i} className="ig-card">
                             <div className="ig-media">
-                                <Image
-                                    src={item.src}
-                                    alt="VSFRAME CANADA"
-                                    fill
-                                    sizes="(max-width: 900px) 100vw, 50vw"
-                                    className="ig-img"
-                                    priority={i < 2}
-                                />
+                                <div
+                                    role="button"
+                                    tabIndex={0}
+                                    onClick={() => setZoom(item)}
+                                    onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') setZoom(item); }}
+                                    style={{ width: '100%', height: '100%', cursor: 'zoom-in' }}
+                                >
+                                    <Image
+                                        src={item.src}
+                                        alt={item.alt || 'VSFrame image'}
+                                        fill
+                                        sizes="(max-width: 900px) 100vw, 50vw"
+                                        className="ig-img"
+                                        priority={i < 2}
+                                    />
+                                </div>
                             </div>
-                            <figcaption className="ig-caption">{item.caption}</figcaption>
+                            {/* captions removed per request */}
                         </figure>
                     ))}
                 </div>
             </div>
+
+            {zoom && (
+                <div className="ig-lightbox" role="dialog" aria-modal="true" onClick={() => setZoom(null)}>
+                    <div className="ig-lightbox-inner" onClick={(e) => e.stopPropagation()}>
+                        <button className="ig-lightbox-close" onClick={() => setZoom(null)} aria-label="Close image">×</button>
+                        <img src={zoom.src} alt={zoom.alt || 'VSFrame image'} className="ig-lightbox-img" />
+                    </div>
+                </div>
+            )}
         </section>
     );
 }
