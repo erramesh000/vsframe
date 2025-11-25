@@ -64,19 +64,13 @@ export default function Footer() {
                             </span>
                             M–F 9 am–5 pm
                         </li>
-                        <li>
-                            <span className="fc-ico" aria-hidden="true">
-                                {/* document */}
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6 2h7l5 5v13a2 2 0 01-2 2H6a2 2 0 01-2-2V4a2 2 0 012-2zm7 1.5V8h4.5L13 3.5z" /></svg>
-                            </span>
-                            License #123456
-                        </li>
+
                         <li>
                             <span className="fc-ico" aria-hidden="true">
                                 {/* pin */}
                                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a7 7 0 00-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 00-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" /></svg>
                             </span>
-                            514, 13623, <br />81a avenue
+                            13623, <br />81a avenue
                             Surrey,<br />Canada
                         </li>
                     </ul>

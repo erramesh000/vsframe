@@ -52,7 +52,7 @@ export default function Insight() {
         <section className="ig-page" aria-label="Featured case studies">
             <div className="ig-inner">
                 <header className="ig-header">
-                    <h2 className="ig-title">Our Services</h2>
+                    <h2 className="ig-title">Our Work</h2>
                     <p className="ig-sub">Quality craftsmanship across framing, drywall, decks, renovations, and more.</p>
                 </header>
                 <div className="ig-grid">
