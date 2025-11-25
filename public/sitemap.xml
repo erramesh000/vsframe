@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.vsframe.ca/</loc>
+  <lastmod>2025-11-25T03:55:02+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.vsframe.ca/about</loc>
+  <lastmod>2025-11-25T03:55:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.vsframe.ca/services/customdeck</loc>
+  <lastmod>2025-11-25T03:55:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.vsframe.ca/insight</loc>
+  <lastmod>2025-11-25T03:55:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.vsframe.ca/contact</loc>
+  <lastmod>2025-11-25T03:55:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.vsframe.ca/services/framing</loc>
+  <lastmod>2025-11-25T03:55:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.vsframe.ca/services/drywall</loc>
+  <lastmod>2025-11-25T03:55:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.vsframe.ca/services/handyman</loc>
+  <lastmod>2025-11-25T03:55:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
