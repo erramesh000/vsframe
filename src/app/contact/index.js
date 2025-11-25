@@ -133,7 +133,7 @@ export default function Contact() {
                 {/* Brand logos strip */}
                 <div className="contact-logos" aria-hidden="true">
                     <Image src="/images/VSFRAMECA.png" alt="VSFRAME CANADA" width={120} height={120} className="brand-logo brand-logo--ca" />
-                    <Image src="/images/VSFRAMEwork.png" alt="VSFRAME CANADA" width={140} height={140} className="brand-logo brand-logo--work" />
+                    <img src="/images/VSFRAMEwork.png" alt="VSFRAME WorkSafeBC" className="brand-logo brand-logo--work" loading="lazy" />
                 </div>
             </main>
         </div>
