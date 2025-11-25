@@ -1,5 +1,5 @@
 export default function sitemap() {
-    const baseUrl = 'https://greennew.com'; // Replace with your actual domain
+    const baseUrl = 'https://www.vsframe.ca'; // Replace with your actual domain
 
     return [
         {
