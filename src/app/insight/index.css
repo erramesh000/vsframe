@@ -100,7 +100,7 @@
 .ig-sub {
     margin: 0 auto;
     max-width: 760px;
-    color: rgba(233, 241, 255, 0.76);
+    color: #2a3844;
     font-size: clamp(13px, 1.6vw, 15px);
 }
 
