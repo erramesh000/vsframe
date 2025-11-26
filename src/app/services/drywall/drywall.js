@@ -16,7 +16,7 @@ export default function Drywall() {
             {/* Hero Section */}
             <div
                 className="relative h-64 md:h-96 bg-cover bg-center"
-                style={{ backgroundImage: "url('/images/vsframe-4.jpg')" }}
+                style={{ backgroundImage: "url('/images/vsframe-16.jpg')" }}
             >
                 <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
                     <h1 className="text-white text-3xl md:text-5xl font-bold text-center drop-shadow-lg">
@@ -67,6 +67,7 @@ export default function Drywall() {
                         <p className="mb-4 text-gray-700">
                             A perfectly finished interior starts with professional drywall services. Whether you’re working on a custom home, renovation, multifamily townhome, or low-rise building, our team ensures smooth, flawless walls and ceilings from start to finish. From drywall boarding to taping and finishing, we combine precision, skill, and attention to detail to deliver exceptional results.
                         </p>
+                        <img src="/images/vsframe-16.jpg" alt="VSFRAME CANADA" className="w-full h-48 object-cover rounded-lg mb-6" />
 
                         <h4 className="text-lg font-semibold text-gray-800 mb-1">Why Professional Drywall Matters</h4>
                         <p className="mb-4 text-gray-700">
@@ -120,7 +121,9 @@ export default function Drywall() {
 
                         <h4 className="text-lg font-semibold text-gray-800 mb-2">Achieve Flawless Interiors</h4>
                         <p className="mb-4 text-gray-700">Whether it’s a custom home, renovation, multifamily townhome, or low-rise building, expert drywall services provide the perfect foundation for beautiful, lasting interiors. Our boarding and taping expertise guarantees smooth walls and ceilings that enhance your space and elevate your home or building.</p>
-                        <p className="text-gray-700">Start your project with precision and quality — contact us today for professional drywall services you can trust!</p>
+                        <div className="text-xl md:text-2xl mb-4 text-center italic text-emerald-700">
+                            Start your project with precision and quality — contact us today for professional drywall services you can trust!
+                        </div>
                     </main>
                 </div>
             </section>

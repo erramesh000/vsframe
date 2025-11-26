@@ -38,6 +38,66 @@ export default function Insight() {
             src: "/images/vsframe-8.jpg",
             alt: "VSFRAME",
         },
+        {
+            src: "/images/vsframe-9.jpg",
+            alt: "VSFRAME",
+        },
+        {
+            src: "/images/vsframe-10.jpg",
+            alt: "VSFRAME",
+        },
+        {
+            src: "/images/vsframe-11.jpg",
+            alt: "VSFRAME",
+        },
+        {
+            src: "/images/vsframe-12.jpg",
+            alt: "VSFRAME",
+        },
+        {
+            src: "/images/vsframe-15.jpg",
+            alt: "VSFRAME",
+        },
+        {
+            src: "/images/vsframe-16.jpg",
+            alt: "VSFRAME",
+        },
+        {
+            src: "/images/vsframe-17.jpg",
+            alt: "VSFRAME",
+        },
+        {
+            src: "/images/vsframe-18.jpg",
+            alt: "VSFRAME",
+        },
+        {
+            src: "/images/vsframe-19.jpg",
+            alt: "VSFRAME",
+        },
+        {
+            src: "/images/vsframe-20.jpg",
+            alt: "VSFRAME",
+        },
+        {
+            src: "/images/vsframe-21.jpg",
+            alt: "VSFRAME",
+        },
+        {
+            src: "/images/vsframe-22.jpg",
+            alt: "VSFRAME",
+        },
+        {
+            src: "/images/vsframe-23.jpg",
+            alt: "VSFRAME",
+        },
+        {
+            src: "/images/vsframe-24.jpg",
+            alt: "VSFRAME",
+        },
+        {
+            src: "/images/vsframe-25.jpg",
+            alt: "VSFRAME",
+        },
     ];
 
     const [zoom, setZoom] = useState(null);

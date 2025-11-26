@@ -10,10 +10,10 @@ export default function Home() {
         "../images/vsframe-9.jpg",
     ];
     const services = [
-        { name: "Custom Deck", link: "customdeck", image: "../images/vsframe-6.jpg" },
-        { name: "Framing Service", link: "framing", image: "../images/vsframe-7.jpg" },
-        { name: "Drywall Service", link: "drywall", image: "../images/vsframe-8.jpg" },
-        { name: "Handyman Service", link: "handyman", image: "../images/vsframe-9.jpg" },
+        { name: "Custom Deck", link: "customdeck", image: "../images/vsframe-15.jpg" },
+        { name: "Framing Service", link: "framing", image: "../images/vsframe-12.jpg" },
+        { name: "Drywall Service", link: "drywall", image: "../images/vsframe-16.jpg" },
+        { name: "Handyman Service", link: "handyman", image: "../images/vsframe-3.jpg" },
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -39,7 +39,7 @@ export default function Home() {
                                 href="https://wa.me/16045125129"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="px-6 py-3 w-auto inline-flex bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 transition"
+                                className="px-6 py-3 w-auto inline-flex bg-amber-600 text-white rounded-lg hover:bg-amber-700 transition"
                                 aria-label="Start WhatsApp chat for a free consultation"
                             >
                                 Get a Free Consultation

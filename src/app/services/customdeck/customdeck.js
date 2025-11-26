@@ -14,7 +14,7 @@ export default function CustomDeck() {
     return (
         <>
             {/* Hero Section */}
-            <div className="relative h-64 md:h-96 bg-cover bg-center" style={{ backgroundImage: "url('/images/vsframe-1.jpg')" }}>
+            <div className="relative h-64 md:h-96 bg-cover bg-center" style={{ backgroundImage: "url('/images/vsframe-15.jpg')" }}>
                 <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
                     <h1 className="text-white text-3xl md:text-5xl font-bold text-center drop-shadow-lg">
                         Transform Your Outdoor Living
@@ -62,7 +62,7 @@ export default function CustomDeck() {
                         <p className="mb-6 text-gray-700">
                             A deck is more than just a platform with railings — it’s an extension of your home. It’s where morning coffee tastes better, summer evenings feel longer, and get-togethers become unforgettable. With thoughtful design and expert craftsmanship, a custom deck can completely transform the way you enjoy your home and the outdoors.
                         </p>
-                        <img src="/images/vsframe-1.jpg" alt="VSFRAME CANADA" className="w-full h-48 object-cover rounded-lg mb-6" />
+                        <img src="/images/vsframe-15.jpg" alt="VSFRAME CANADA" className="w-full h-48 object-cover rounded-lg mb-6" />
 
                         <h3 className="text-xl font-semibold text-gray-800 mb-2">Choosing the Right Deck for Your Home</h3>
                         <p className="mb-4 text-gray-700">
