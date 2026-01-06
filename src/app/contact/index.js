@@ -52,7 +52,18 @@ export default function Contact() {
         setStatus("sending");
         try {
             // TODO: replace with real API call
-            await new Promise((r) => setTimeout(r, 900));
+            // await new Promise((r) => setTimeout(r, 900));
+            const res = await fetch("/api/send-mail", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    email: form.email.trim(),
+                    subject: `New Contact Form Submission from ${form.name.trim()}`,
+                    text: form.message.trim(),
+                    company: form.company.trim(),
+                    html: "",
+                }),
+            });
             setStatus("success");
             setForm({ name: "", email: "", company: "", message: "" });
             setTimeout(() => setStatus("idle"), 2400);
@@ -74,12 +85,12 @@ export default function Contact() {
                         <form className="contact-form" onSubmit={handleSubmit} noValidate>
                             {/* <div className="row"> */}
                             <label className={`field ${form.name ? "filled" : ""}`}>
-                                <span>Name</span>
+                                <span>Name *</span>
                                 <input name="name" value={form.name} onChange={onChange} type="text" autoComplete="name" />
                             </label>
 
                             <label className={`field ${form.email ? "filled" : ""}`}>
-                                <span>Email</span>
+                                <span>Email *</span>
                                 <input name="email" value={form.email} onChange={onChange} type="email" autoComplete="email" />
                             </label>
                             {/* </div> */}
@@ -90,7 +101,7 @@ export default function Contact() {
                             </label>
 
                             <label className={`field ${form.message ? "filled" : ""}`}>
-                                <span>Message</span>
+                                <span>Message *</span>
                                 <textarea name="message" value={form.message} onChange={onChange} rows={5} />
                             </label>
 
