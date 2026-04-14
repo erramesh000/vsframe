@@ -7,6 +7,46 @@ import "./index.css";
 export default function Insight() {
     const items = [
         {
+            src: "/images/vsframe-26.jpeg",
+            alt: "VSFRAME ",
+        },
+        {
+            src: "/images/vsframe-27.jpeg",
+            alt: "VSFRAME ",
+        },
+        {
+            src: "/images/vsframe-28.jpeg",
+            alt: "VSFRAME ",
+        },
+        {
+            src: "/images/vsframe-29.jpeg",
+            alt: "VSFRAME ",
+        },
+        {
+            src: "/images/vsframe-30.jpeg",
+            alt: "VSFRAME ",
+        },
+        {
+            src: "/images/vsframe-31.jpeg",
+            alt: "VSFRAME ",
+        },
+        {
+            src: "/images/vsframe-32.jpeg",
+            alt: "VSFRAME ",
+        },
+        {
+            src: "/images/vsframe-33.jpeg",
+            alt: "VSFRAME ",
+        },
+        {
+            src: "/images/vsframe-34.jpeg",
+            alt: "VSFRAME ",
+        },
+        {
+            src: "/images/vsframe-35.jpeg",
+            alt: "VSFRAME ",
+        },
+        {
             src: "/images/vsframe-3.jpg",
             alt: "VSFRAME ",
         },
