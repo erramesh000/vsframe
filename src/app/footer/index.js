@@ -42,10 +42,10 @@ export default function Footer() {
                     {/* Additional brand / certification logos */}
                     <div className="fc-logos" aria-hidden="true">
                         <div className="fc-logo-wrap fc-logo-wrap--ca">
-                            <Image src={vsFrameCa} alt="VSFRAME CANADA" width={100} height={80} className="fc-logo-img" />
+                            <Image src={vsFrameCa} alt="VSFRAME CANADA" width={100} height={80} style={{ height: 'auto', width: '100%' }} className="fc-logo-img" />
                         </div>
                         <div className="fc-logo-wrap fc-logo-wrap--work">
-                            <Image src={vsFrameWork} alt="VSFRAME CANADA" width={100} height={80} className="fc-logo-img" />
+                            <Image src={vsFrameWork} alt="VSFRAME CANADA" width={100} height={80} style={{ height: 'auto', width: '100%' }} className="fc-logo-img" />
                         </div>
                     </div>
                 </div>

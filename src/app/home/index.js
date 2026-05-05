@@ -31,7 +31,10 @@ export default function Home() {
                 <div className="absolute inset-0 backdrop-invert backdrop-opacity-10 flex items-center justify-center text-center">
                     <div className="text-white">
                         <h1 className="text-4xl md:text-5xl font-bold mb-4 hero-title hero-live">
-                            Deck, Framing & Drywall  Contractor
+                            Deck Builder & Framing Contractor Vancouver
+                        </h1>
+                        <h1 className="text-3xl md:text-5xl font-bold mb-4 hero-title hero-live">
+                            Red Seal Carpentry
                         </h1>
                         {/* <p className="text-lg md:text-xl mb-6">Custom deck construction that's built to a moral code</p> */}
                         <div className="flex flex-col md:flex-row items-center gap-4 justify-center">
@@ -133,15 +136,15 @@ export default function Home() {
                         <div className="order-1 md:order-2">
                             <p className="text-xs tracking-widest font-semibold text-emerald-700/80 mb-2">VSFRAME CONSTRUCTION</p>
                             <h2 className="text-3xl md:text-4xl font-extrabold leading-tight bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">Metro Vancouver’s Trusted Deck, Framing & Drywall Contractor</h2>
-                            <p className="text-gray-700 mt-4">
-                                At VSFRAME Construction, we specialize in custom deck building, framing, and drywall services for custom homes and multifamily projects across Metro Vancouver. Our goal is to bring lasting quality and craftsmanship to every project — enhancing each property’s strength, functionality, and aesthetic appeal.
+                            <p className="text-gray-700 mt-4 text-justify">
+                                At VSFRAME Construction, delivering high-quality craftsmanship for residential and multi-family construction projects. With a strong focus on precision, durability, and attention to detail, we specialize in custom deck construction and structural framing tailored to each client’s vision and needs. Whether you’re building a new home, upgrading your outdoor living space, or working on a large-scale multi-family development, we bring experience, reliability, and professionalism to every job. From initial planning to final execution, we work closely with homeowners, builders, and developers to ensure each project is completed on time and to the highest standards. Our custom decks are designed to enhance both the functionality and value of your property, while our framing services provide the solid foundation every structure depends on. Proudly serving Metro Vancouver and surrounding areas, we are committed to honest communication, transparent pricing, and results that stand the test of time. No project is too big or too small—we approach every build with the same level of care and craftsmanship. Get in touch today to discuss your project and receive a free, no-obligation quote.
                             </p>
 
-                            <ul className="mt-4 grid gap-2 text-gray-700">
+                            {/* <ul className="mt-4 grid gap-2 text-gray-700">
                                 <li className="flex items-start gap-2"><span aria-hidden className="text-emerald-600">✔</span> Licensed, insured, and safety-first.</li>
                                 <li className="flex items-start gap-2"><span aria-hidden className="text-emerald-600">✔</span> Custom decks, framing, and drywall experts.</li>
                                 <li className="flex items-start gap-2"><span aria-hidden className="text-emerald-600">✔</span> On-time delivery and transparent pricing.</li>
-                            </ul>
+                            </ul> */}
 
                             <div className="mt-6 flex flex-wrap gap-3">
                                 <a href="/contact" className="inline-flex items-center px-5 py-3 rounded-lg bg-emerald-600 text-white font-semibold shadow hover:bg-emerald-700 transition">Get a quote</a>

@@ -2,141 +2,34 @@
 
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import "./index.css";
 
 export default function Insight() {
     const items = [
         {
-            src: "/images/vsframe-26.jpeg",
-            alt: "VSFRAME ",
-        },
-        {
-            src: "/images/vsframe-27.jpeg",
-            alt: "VSFRAME ",
-        },
-        {
-            src: "/images/vsframe-28.jpeg",
-            alt: "VSFRAME ",
-        },
-        {
-            src: "/images/vsframe-29.jpeg",
-            alt: "VSFRAME ",
-        },
-        {
-            src: "/images/vsframe-30.jpeg",
-            alt: "VSFRAME ",
-        },
-        {
-            src: "/images/vsframe-31.jpeg",
-            alt: "VSFRAME ",
-        },
-        {
-            src: "/images/vsframe-32.jpeg",
-            alt: "VSFRAME ",
-        },
-        {
-            src: "/images/vsframe-33.jpeg",
-            alt: "VSFRAME ",
-        },
-        {
-            src: "/images/vsframe-34.jpeg",
-            alt: "VSFRAME ",
-        },
-        {
-            src: "/images/vsframe-35.jpeg",
-            alt: "VSFRAME ",
-        },
-        {
-            src: "/images/vsframe-3.jpg",
-            alt: "VSFRAME ",
-        },
-        {
-            src: "/images/vsframe-4.jpg",
-            alt: "VSFRAME",
-        },
-        {
-            src: "/images/vsframe-5.jpg",
-            alt: "VSFRAME",
-        },
-        {
-            src: "/images/vsframe-1.jpg",
-            alt: "VSFRAME",
-        },
-        {
-            src: "/images/vsframe-6.jpg",
-            alt: "VSFRAME",
-        },
-        {
-            src: "/images/vsframe-7.jpg",
-            alt: "VSFRAME",
-        },
-        {
-            src: "/images/vsframe-2.jpg",
-            alt: "VSFRAME",
-        },
-        {
-            src: "/images/vsframe-8.jpg",
-            alt: "VSFRAME",
-        },
-        {
-            src: "/images/vsframe-9.jpg",
-            alt: "VSFRAME",
-        },
-        {
-            src: "/images/vsframe-10.jpg",
-            alt: "VSFRAME",
-        },
-        {
-            src: "/images/vsframe-11.jpg",
-            alt: "VSFRAME",
-        },
-        {
-            src: "/images/vsframe-12.jpg",
-            alt: "VSFRAME",
-        },
-        {
+            project_id: 1,
+            project_title: "Custom Composite Deck Build in Burnaby, BC – Trex Transcend Havana Gold",
             src: "/images/vsframe-15.jpg",
-            alt: "VSFRAME",
+            alt: "VSFRAME ",
         },
         {
-            src: "/images/vsframe-16.jpg",
-            alt: "VSFRAME",
+            project_id: 2,
+            project_title: "Multi-Level PVC Deck & Staircase in Belcarra, BC – Ocean Access Build",
+            src: "/images/vsframe-4.jpg",
+            alt: "VSFRAME ",
         },
         {
-            src: "/images/vsframe-17.jpg",
-            alt: "VSFRAME",
+            project_id: 3,
+            project_title: "Custom Pottery Studio Build in North Vancouver, BC – Skylights, Cedar Soffits & Hardie Exterior",
+            src: "/images/vsframe-8.jpg",
+            alt: "VSFRAME ",
         },
         {
-            src: "/images/vsframe-18.jpg",
-            alt: "VSFRAME",
-        },
-        {
-            src: "/images/vsframe-19.jpg",
-            alt: "VSFRAME",
-        },
-        {
-            src: "/images/vsframe-20.jpg",
-            alt: "VSFRAME",
-        },
-        {
-            src: "/images/vsframe-21.jpg",
-            alt: "VSFRAME",
-        },
-        {
-            src: "/images/vsframe-22.jpg",
-            alt: "VSFRAME",
-        },
-        {
-            src: "/images/vsframe-23.jpg",
-            alt: "VSFRAME",
-        },
-        {
-            src: "/images/vsframe-24.jpg",
-            alt: "VSFRAME",
-        },
-        {
-            src: "/images/vsframe-25.jpg",
-            alt: "VSFRAME",
+            project_id: 4,
+            project_title: "Triple Garage with Laneway Home in Coquitlam, BC – Full Structural Build",
+            src: "/images/vsframe-12.jpg",
+            alt: "VSFRAME ",
         },
     ];
 
@@ -159,8 +52,9 @@ export default function Insight() {
                 </header>
                 <div className="ig-grid">
                     {items.map((item, i) => (
-                        <figure key={i} className="ig-card">
-                            <div className="ig-media">
+                        <figure key={i} className="ig-card shadow-md p-4 rounded-2xl">
+                            <Link href={`/insight/${item.project_id}`} className="text-xl md:text-xl font-bold text-emerald-700 mb-5 cursor-pointer">{item.project_title}</Link>
+                            <div className="ig-media mt-4">
                                 <div
                                     role="button"
                                     tabIndex={0}
