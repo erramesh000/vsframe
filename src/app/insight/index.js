@@ -8,28 +8,28 @@ import "./index.css";
 export default function Insight() {
     const items = [
         {
-            project_id: 1,
+            project_id: "vsframe-1",
             project_title: "Custom Composite Deck Build in Burnaby, BC – Trex Transcend Havana Gold",
             src: "/images/vsframe-15.jpg",
-            alt: "VSFRAME ",
+            alt: "VSFRAME Custom Composite Deck Build in Burnaby, BC – Trex Transcend Havana Gold",
         },
         {
-            project_id: 2,
+            project_id: "vsframe-2",
             project_title: "Multi-Level PVC Deck & Staircase in Belcarra, BC – Ocean Access Build",
             src: "/images/vsframe-4.jpg",
-            alt: "VSFRAME ",
+            alt: "VSFRAME Multi-Level PVC Deck & Staircase in Belcarra, BC – Ocean Access Build",
         },
         {
-            project_id: 3,
+            project_id: "vsframe-3",
             project_title: "Custom Pottery Studio Build in North Vancouver, BC – Skylights, Cedar Soffits & Hardie Exterior",
             src: "/images/vsframe-8.jpg",
-            alt: "VSFRAME ",
+            alt: "VSFRAME Custom Pottery Studio Build in North Vancouver, BC – Skylights, Cedar Soffits & Hardie Exterior",
         },
         {
-            project_id: 4,
+            project_id: "vsframe-4",
             project_title: "Triple Garage with Laneway Home in Coquitlam, BC – Full Structural Build",
             src: "/images/vsframe-12.jpg",
-            alt: "VSFRAME ",
+            alt: "VSFRAME Triple Garage with Laneway Home in Coquitlam, BC – Full Structural Build",
         },
     ];
 
