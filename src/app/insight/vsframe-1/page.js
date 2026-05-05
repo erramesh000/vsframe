@@ -1,10 +1,14 @@
+import Image from "next/image";
+
 export default function Project() {
   return (
     <main className="max-w-6xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden mt-5">
 
       <div className="relative h-72 sm:h-96 md:h-[28rem] w-full group">
-        <img src="/images/vsframe-15.jpg"
+        <Image src="/images/vsframe-15.jpg"
           alt="VSFRAME"
+          fill
+          sizes="100vw"
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
 
 
@@ -79,7 +83,7 @@ export default function Project() {
           <div className="bg-gray-50 rounded-xl p-8 text-center max-w-3xl mx-auto shadow-inner">
             <svg className="w-10 h-10 mx-auto text-emerald-300 mb-4 opacity-50" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" /></svg>
             <p className="text-gray-600 italic text-lg md:text-xl font-medium">
-              "This project demonstrates our commitment to delivering <b>high-quality deck construction in Burnaby and the Greater Vancouver area</b>, combining expert craftsmanship with industry-leading materials."
+              &quot;This project demonstrates our commitment to delivering <b>high-quality deck construction in Burnaby and the Greater Vancouver area</b>, combining expert craftsmanship with industry-leading materials.&quot;
             </p>
           </div>
         </div>
