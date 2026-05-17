@@ -9,7 +9,7 @@ export default function Framing() {
             {/* Hero Section */}
             <div
                 className="relative h-64 md:h-96 bg-cover bg-center"
-                style={{ backgroundImage: "url('/images/vsframe-12.jpg')" }}
+                style={{ backgroundImage: "url('/images/vsframe15.jpg')" }}
             >
                 <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
                     <h1 className="text-white text-3xl md:text-5xl font-bold text-center drop-shadow-lg">
@@ -30,7 +30,7 @@ export default function Framing() {
                         <p className="mb-4 text-gray-700">
                             Framing is the backbone of any construction project — the structure that brings your vision to life. Whether you’re building a custom home, a laneway house, multifamily townhomes, or a low-rise building, professional framing ensures strength, stability, and precision. With expert craftsmanship and attention to detail, our team turns architectural plans into a solid, reliable framework for your dream project.
                         </p>
-                        <img src="/images/vsframe-12.jpg" alt="VSFRAME CANADA" className="w-full h-48 object-cover rounded-lg mb-6" />
+                        <img src="/images/vsframe15.jpg" alt="VSFRAME CANADA" className="w-full h-48 object-cover rounded-lg mb-6" />
 
                         <h3 className="text-xl font-semibold text-gray-800 mb-2">Why Professional Framing Matters</h3>
                         <p className="mb-4 text-gray-700">

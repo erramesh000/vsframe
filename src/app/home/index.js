@@ -10,9 +10,9 @@ export default function Home() {
         "../images/vsframe-9.jpg",
     ];
     const services = [
-        { name: "Custom Deck", link: "customdeck", image: "../images/vsframe-15.jpg" },
-        { name: "Framing Service", link: "framing", image: "../images/vsframe-12.jpg" },
-        { name: "Drywall Service", link: "drywall", image: "../images/vsframe-16.jpg" },
+        { name: "Custom Deck", link: "customdeck", image: "../images/vsframe15.jpg" },
+        { name: "Framing Service", link: "framing", image: "../images/vsframe19.jpg" },
+        { name: "Drywall Service", link: "drywall", image: "../images/vsframe16.jpg" },
         { name: "Handyman Service", link: "handyman", image: "../images/vsframe-3.jpg" },
     ];
 
@@ -126,7 +126,7 @@ export default function Home() {
                         <div className="relative group order-2 md:order-1">
                             <span className="absolute -inset-6 bg-gradient-to-tr from-green-200/40 via-emerald-100/30 to-sky-200/40 blur-2xl rounded-3xl" aria-hidden="true" />
                             <img
-                                src="../images/vsframe-15.jpg"
+                                src="../images/vsframe15.jpg"
                                 alt="VSFRAME CANADA"
                                 className="relative z-10 w-full h-auto object-cover rounded-xl shadow-2xl transition-transform duration-500 group-hover:scale-[1.02]"
                             />
@@ -156,7 +156,7 @@ export default function Home() {
             </section>
 
             <section className="w-full mx-auto bg-white mt-5 p-2">
-                <div className="relative h-screen bg-cover bg-center" style={{ backgroundImage: "url('../images/vsframe-15.jpg')" }}>
+                <div className="relative h-screen bg-cover bg-center" style={{ backgroundImage: "url('../images/vsframe15.jpg')" }}>
                     <div className="absolute inset-0 backdrop-invert backdrop-opacity-30 flex items-center justify-center text-center overflow-hidden">
                         <div className="text-white">
                             <h1 className="text-4xl md:text-5xl font-bold mb-4">

@@ -10,13 +10,13 @@ export default function Insight() {
         {
             project_id: "vsframe-1",
             project_title: "Custom Composite Deck Build in Burnaby, BC – Trex Transcend Havana Gold",
-            src: "/images/vsframe-15.jpg",
+            src: "/images/vsframe15.jpg",
             alt: "VSFRAME Custom Composite Deck Build in Burnaby, BC – Trex Transcend Havana Gold",
         },
         {
             project_id: "vsframe-2",
             project_title: "Multi-Level PVC Deck & Staircase in Belcarra, BC – Ocean Access Build",
-            src: "/images/vsframe-4.jpg",
+            src: "/images/vsframe24.jpg",
             alt: "VSFRAME Multi-Level PVC Deck & Staircase in Belcarra, BC – Ocean Access Build",
         },
         {
