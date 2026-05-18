@@ -5,7 +5,7 @@ export default function Project() {
     <main className="max-w-6xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden mt-5">
 
       <div className="relative h-72 sm:h-96 md:h-[28rem] w-full group">
-        <Image src="/images/vsframe32.jpg"
+        <Image src="/images/vsframe37.jpg"
           alt="VSFRAME"
           fill
           sizes="100vw"
