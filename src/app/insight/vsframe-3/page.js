@@ -5,7 +5,7 @@ export default function Project() {
     <main className="max-w-6xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden mt-5">
 
       <div className="relative h-72 sm:h-96 md:h-[28rem] w-full group">
-        <Image src="/images/vsframe-8.jpg"
+        <Image src="/images/vsframe32.jpg"
           alt="VSFRAME"
           fill
           sizes="100vw"
@@ -81,7 +81,26 @@ export default function Project() {
             </div>
           </div>
         </div>
+        <div className="mt-12 pt-10 border-t border-gray-200">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">Project Gallery</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            <div className="relative h-64 w-full rounded-lg overflow-hidden shadow-lg">
+              <Image src="/images/vsframe37.jpg" alt="vsframe37" fill className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+            </div>
 
+            <div className="relative h-64 w-full rounded-lg overflow-hidden shadow-lg">
+              <Image src="/images/vsframe40.jpg" alt="vsframe40" fill className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+            </div>
+
+
+
+            <div className="relative h-64 w-full rounded-lg overflow-hidden shadow-lg">
+              <Image src="/images/vsframe44.jpg" alt="vsframe44" fill className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+            </div>
+
+
+          </div>
+        </div>
 
         <div className="mt-12 pt-10 border-t border-gray-200">
           <div className="bg-gray-50 rounded-xl p-8 text-center max-w-3xl mx-auto shadow-inner">
