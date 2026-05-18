@@ -28,7 +28,7 @@ export default function Insight() {
         {
             project_id: "vsframe-4",
             project_title: "Triple Garage with Laneway Home in Coquitlam, BC – Full Structural Build",
-            src: "/images/vsframe-12.jpg",
+            src: "/images/vsframe36.jpg",
             alt: "VSFRAME Triple Garage with Laneway Home in Coquitlam, BC – Full Structural Build",
         },
     ];
